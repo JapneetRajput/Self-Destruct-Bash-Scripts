@@ -1,7 +1,7 @@
 @echo off
 
 setlocal
-
+ 
 REM Check if both parameters are provided and not empty
 if "%~1"=="" (
     echo Error: Missing parameter 1.
