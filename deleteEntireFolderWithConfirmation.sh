@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt for confirmation
-read -p "Are you sure you want to delete the folder '$current_dir'? (y/n) " confirm
+read -p "Are you sure you want to delete the folder '$current_dir'? (y/n) " confirm 
 
 if [[ $confirm == "y" || $confirm == "Y" ]]; then
     # Delete the folder
