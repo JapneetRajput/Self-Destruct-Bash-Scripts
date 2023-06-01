@@ -2,7 +2,7 @@
 
 setlocal
 
-REM Check if both parameters are provided
+REM Check if both parameters are provided and not empty
 if "%~1"=="" (
     echo Error: Missing parameter 1.
     exit /b 1
